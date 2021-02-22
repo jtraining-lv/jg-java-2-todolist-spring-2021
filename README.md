@@ -45,3 +45,8 @@ update: use this value in case you want to apply changes in the entity classes i
 validate: use this value if you want Hibernate to validate the database schema against the mapped entity classes. Upon testing, I found that Hibernate checks only if the tables exist or not. If not, it throws SchemaManagementException – reporting tables missing.
 none: tell Hibernate do not touch the database schema. Use this value when the database is stable and in production mode.
 ```
+
+# Swagger UI
+
+http://localhost:8080/swagger-ui/
+
